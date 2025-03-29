@@ -104,15 +104,18 @@ Our implementation features:
 
 ```typescript
 // Create builders
-const modernBuilder = new BuilderPattern.ModernHouseBuilder();
-const traditionalBuilder = new BuilderPattern.TraditionalHouseBuilder();
-const ecoBuilder = new BuilderPattern.EcoFriendlyHouseBuilder();
+const modernBuilder = new ModernHouseBuilder();
+const traditionalBuilder = new TraditionalHouseBuilder();
+const ecoBuilder = new EcoFriendlyHouseBuilder();
 
 // Use the director
-const director = new BuilderPattern.HouseDirector();
-const modernHouse = director.constructFullFeaturedModernHouse(modernBuilder);
-const traditionalHouse =
-	director.constructFullFeaturedTraditionalHouse(traditionalBuilder);
+const director = new HouseDirector();
+const modernHouse = director.constructFullFeaturedModernHouse(
+	new ModernHouseBuilder(),
+);
+const traditionalHouse = director.constructFullFeaturedTraditionalHouse(
+	new TraditionalHouseBuilder(),
+);
 
 // Or configure manually
 const customEcoHouse = ecoBuilder
