@@ -46,9 +46,18 @@ This repository contains practical implementations of common software design pat
 .
 ├── src/
 │   ├── builder/
-│   │   ├── ts/       # TypeScript implementation
-│   │   └── ...       # Other language implementations
-│   ├── ...           # Other patterns
+│   │   ├── ts/       							# TypeScript implementation
+│   │   │   └── variant1/
+│   │   │       ├── index.ts					# Source code
+│   │   │       └── ...       					# Other files
+│   │   └── python/     						# Python implementation
+│   │       ├── variant1/
+│   │       │   ├── main.py						# Source code
+│   │       │   └── ...       					# Other files
+│   │       └── variant2/
+│   │           ├── main.py						# Source code
+│   │           └── ...       					# Other files
+│   ├── ...           							# Other patterns
 │
 └── README.md
 ```
@@ -81,10 +90,10 @@ To run a specific pattern example:
 
 ```bash
 # For TypeScript examples
-npx ts-node src/[pattern]/ts/index.ts
+npx ts-node src/[pattern]/ts/[variant]/index.ts
 
 # Example for Builder pattern
-npx ts-node src/builder/ts/index.ts
+npx ts-node src/builder/ts/functional/index.ts
 ```
 
 ## Builder Pattern
