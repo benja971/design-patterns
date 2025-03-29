@@ -10,16 +10,35 @@ This repository contains practical implementations of common software design pat
 
 ### Creational Patterns
 
-- **Builder Pattern**: Separates the construction of complex objects from their representation.
-  - Implementation available in TypeScript
+- [ ] Abstract Factory
+- [x] Builder
+- [ ] Factory Method
+- [ ] Prototype
+- [ ] Singleton
 
 ### Structural Patterns
 
-_Coming soon_
+- [ ] Adapter
+- [ ] Bridge
+- [ ] Composite
+- [ ] Decorator
+- [ ] Facade
+- [ ] Flyweight
+- [ ] Proxy
 
 ### Behavioral Patterns
 
-_Coming soon_
+- [ ] Chain of Responsibility
+- [ ] Command
+- [ ] Interpreter
+- [ ] Iterator
+- [ ] Mediator
+- [ ] Memento
+- [ ] Observer
+- [ ] State
+- [ ] Strategy
+- [ ] Template Method
+- [ ] Visitor
 
 ## Project Structure
 
