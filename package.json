@@ -6,6 +6,9 @@
 	"scripts": {
 		"start": "ts-node src/cli.ts"
 	},
+	"engines": {
+		"node": ">=14.0.0"
+	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
