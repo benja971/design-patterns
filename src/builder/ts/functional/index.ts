@@ -90,7 +90,18 @@ export namespace FunctionalBuilderPattern {
 			.addMinimalDesign()
 			.build();
 
+		// Variant without variable assignment
+		const anotherModernHouse = createModernHouseBuilder()
+			.setFoundation('Wood')
+			.setStructure('Wood Frame')
+			.setRoof('Gable')
+			.addSmartHomeTechnology()
+			.addOpenFloorPlan()
+			.addMinimalDesign()
+			.build();
+
 		modernHouse.describe();
+		anotherModernHouse.describe();
 	}
 }
 
