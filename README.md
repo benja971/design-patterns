@@ -143,7 +143,11 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries or suggestions, please contact [me](mailto:nddm.benjamin@gmail.com)
 
 ## Acknowledgments
 
